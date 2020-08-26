@@ -1,117 +1,46 @@
 /* global */
-body,
-.container-fluid {
-	padding: 0;
-	margin: 0;
-}
-
-.centre {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 /* global end
 ============================================================== */
 
 /* Headings start */
-h2 {
-	margin-bottom: 2rem;
-}
 
 /* Heading end 
 ============================================================== */
 
 /* Buttons */
 
-#tellmemore {
-	border-radius: 46px;
-}
-
 /* Buttons
 ============================================================== */
 
 /* Navbar start*/
-nav {
-	height: 5rem;
-	background-color: black;
-}
+
 /* Navbar end
 ============================================================== */
 
 /* Hero/Header */
-.hero {
-	width: 100vw;
-	height: 50vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #eeeeee;
-	padding: 2rem;
-	padding-left: 6em;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 /* Hero/Header  end
 ============================================================== */
 
 /* Course Card */
-.courses,
-.prequesites {
-	padding-left: 10%;
-	padding-top: 5rem;
-	text-align: center;
-}
+
 /* Course Card end 
 ============================================================== */
 
 /* Prerequisites */
-.prequesite {
-	padding-top: 1rem;
-}
+
 /* Prereq end
 ============================================================== */
 
 /* Get started */
-.get-started {
-	margin-top: 5rem;
-	height: 50vh;
-	width: 100vw;
-	background-color: #eeeeee;
-}
+
 /* Get Started end 
 ============================================================== */
 
 /* Footer */
-footer {
-	padding-left: 10%;
-	padding-top: 5rem;
-}
-footer > img {
-	width: 24px;
-	height: 24px;
-}
+
 /* Footer end
 ============================================================== */
 
 /* =========================================================== */
-/* Media queries */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	.hero {
-		padding-left: 10em;
-	}
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
