@@ -15,6 +15,31 @@ body,
 
 /* Navbar end*/
 
+/* Hero/Header */
+.hero {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #eeeeee;
+	padding: 2rem;
+	padding-left: 6em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Hero/Header  end*/
+
+/* Course Card */
+.courses {
+	padding-left: 10%;
+	padding-top: 5rem;
+}
+/* Course Card end */
+
+/* Prerequisites */
+.prequesites {}
+
 /* Media queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -27,6 +52,9 @@ body,
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	.hero {
+		padding-left: 7em;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
