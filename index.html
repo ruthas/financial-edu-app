@@ -15,7 +15,7 @@
 		<title>Financial edu app</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
 			<a class="navbar-brand" href="./index.html">LOGO</a>
 			<button
 				class="navbar-toggler"
@@ -30,7 +30,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4 text-center">
 					<li class="nav-item">
 						<a class="nav-link active" href="#courses">Courses </a>
 					</li>
@@ -38,7 +38,7 @@
 						<a class="nav-link" href="#prerequesites">Prerequesites</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#revies">Reviews</a>
+						<a class="nav-link" href="#reviews">Reviews</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#faqs">FAQs</a>
@@ -51,115 +51,225 @@
 						placeholder="Search"
 					/>
 				</form>
-				<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
-					Log in
-				</button>
-				<button class="btn btn-outline-dark ml-2 my-2 my-sm-0" type="submit">
-					Sign up
-				</button>
+				<a
+					href="./pages/login.html"
+					class="btn btn-outline-dark my-2 my-sm-0 ml-2 btn-login"
+					>Log in</a
+				>
+				<a
+					href="./pages/signup.html"
+					class="btn btn-dark my-2 my-sm-0 ml-2 btn-signup"
+					>Sign up</a
+				>
 			</div>
 		</nav>
 
 		<div class="container-fluid">
 			<!-- Content Here -->
-			<div class="hero">
+			<div class="hero" id="hero">
 				<!-- Hero Cover Image with some text, it would be cool to add a video maybe-->
 				<div class="col-12 col-md-6">
 					<h1>Learn about finance</h1>
-					<a href="#" class="btn btn-primary">Start course &rarr; </a>
+					<a href="#" class="btn btn-lg btn-outline-dark" id="tellmemore"
+						>Tell me more &rarr;
+					</a>
 				</div>
-				<div class="col-md-6 ">
+				<div class="col-md-6">
 					<!-- Hero Cover Image -->
 				</div>
 			</div>
-			<div class="row courses">
+			<div class="row courses" id="courses">
 				<div class="col-12 row-title"><h2>Featured Content</h2></div>
 				<!--  Featured courses -->
 				<!-- Card Elements with Image, Course Title, Summary, Button to Sign Up page -->
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#signup" class="btn btn-outline-dark btn-course1"
+								>Start course &rarr;
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Start course &rarr; </a>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Start course &rarr; </a>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Start course &rarr; </a>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Start course &rarr; </a>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
 					<div class="card" style="width: 18rem;">
-						<img src="./assets/image.png" class="card-img-top" alt="...">
+						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
-						  <h5 class="card-title">Course name</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Start course &rarr; </a>
+							<h5 class="card-title">Course name</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Start course &rarr; </a>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
-			
-			<div class="row prequesites">
+
+			<div class="row prequesites" id="prerequesites">
 				<!--  Prerequisites -->
 				<div class="col-12 row-title"><h2>Prerequisites</h2></div>
-					<div class="col-12 col-md-4">
-						<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-						<h4>Heading</h4>
-					</div>
-				
+				<div class="col-12 col-md-4 prequesite">
+					<svg
+						class="bd-placeholder-img rounded-circle"
+						width="140"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						role="img"
+						aria-label="Placeholder: 140x140"
+					>
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#777" />
+						<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+					</svg>
+					<p>Laptop, tablet or mobile phone.</p>
+				</div>
+				<div class="col-12 col-md-4 prequesite">
+					<svg
+						class="bd-placeholder-img rounded-circle"
+						width="140"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						role="img"
+						aria-label="Placeholder: 140x140"
+					>
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#777" />
+						<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+					</svg>
+					<p>A reliable internet connection.</p>
+				</div>
+				<div class="col-12 col-md-4 prequesite">
+					<svg
+						class="bd-placeholder-img rounded-circle"
+						width="140"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+						role="img"
+						aria-label="Placeholder: 140x140"
+					>
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#777" />
+						<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+					</svg>
+					<p>Proficient in written and spoken English.</p>
+				</div>
 			</div>
-			
-			<!-- Footer Start-->
-			<footer class="container">
-				<p class="float-right"><a href="#">Back to top</a></p>
-				<p>
-					&copy; 2020 Company, Inc. &middot;
-					<a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-				</p>
+
+			<div class="row get-started">
+				<div class="col-12 centre">
+					<h1>Learn about finance</h1>
+				</div>
+				<div class="col-12 centre">
+					<a href="#" class="btn btn-outline-dark">Get started &rarr; </a>
+				</div>
+			</div>
+
+			<footer class="pt-4 my-md-5 pt-md-5 border-top">
+				<div class="row">
+					<div class="col-12 col-md">
+						<img class="mb-2" src="./assets/#" alt="" />
+						<small class="d-block mb-3 text-muted"
+							>&copy; 2020 Company, Inc. &middot;</small
+						>
+					</div>
+					<div class="col-6 col-md">
+						<h5>Features</h5>
+					</div>
+					<div class="col-6 col-md">
+						<h5>Resources</h5>
+					</div>
+					<div class="col-6 col-md">
+						<h5>About</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md"></div>
+					<div class="col-6 col-md">
+						<h5>Features</h5>
+					</div>
+					<div class="col-6 col-md">
+						<h5>Resources</h5>
+					</div>
+					<div class="col-6 col-md">
+						<h5>About</h5>
+					</div>
+				</div>
+				<div class="container">
+					<p class="float-right"><a href="#top">Back to top</a></p>
+				</div>
 			</footer>
+
+			<!-- Footer Start-->
 		</div>
 
-		<script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="./node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="./scripts/main.js"></script>
 	</body>
 </html>
