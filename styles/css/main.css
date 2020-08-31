@@ -35,7 +35,7 @@
 }
 html {
   font-family: 'Roboto';
-  font-style: bold;
+  font-style: normal;
 }
 h2 {
   margin-bottom: 2rem;
@@ -101,8 +101,22 @@ nav {
   height: 5rem;
   background-color: black;
 }
+img.logo {
+  width: 150px;
+  height: 49px;
+}
+@media (max-width: 576px) {
+  img.logo {
+    width: 147px;
+    height: 47px;
+  }
+}
 #tellmemore {
   border-radius: 46px;
+}
+.btn-see-course {
+  background: #8f34e2;
+  border-radius: 40px;
 }
 form > form-group > input {
   height: 50px !important;
