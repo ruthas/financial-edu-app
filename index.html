@@ -16,7 +16,9 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
-			<a class="navbar-brand" href="./index.html">LOGO</a>
+			<a class="navbar-brand" href="./index.html"
+				><img class="logo" src="./assets/Logo.svg" alt="Logo"
+			/></a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -83,7 +85,7 @@
 				<!--  Featured courses -->
 				<!-- Card Elements with Image, Course Title, Summary, Button to Sign Up page -->
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -98,7 +100,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -111,7 +113,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -124,7 +126,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -137,7 +139,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -150,7 +152,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-4 mt-2">
-					<div class="card" style="width: 18rem;">
+					<div class="card" style="width: 18rem">
 						<img src="./assets/image.png" class="card-img-top" alt="..." />
 						<div class="card-body">
 							<h5 class="card-title">Course name</h5>
@@ -228,6 +230,7 @@
 				</div>
 			</div>
 
+			<!-- Footer Start-->
 			<footer class="pt-4 my-md-5 pt-md-5 border-top">
 				<div class="row">
 					<div class="col-12 col-md">
@@ -259,12 +262,35 @@
 					</div>
 				</div>
 				<div class="container">
-					<p class="float-right"><a href="#top">Back to top</a></p>
+					<p class="float-right"><a href="./assets/">Back to top</a></p>
 				</div>
 			</footer>
-
-			<!-- Footer Start-->
 		</div>
+
+		<script id="courses-template" type="text/x-handlebars-template">
+			<div class='col-12 row-title'>
+				<h2>
+					{{title}}
+				</h2>
+			</div>
+			{{#courses}}
+				<div class='card' style='width: 18rem;'>
+					<img src='{{image}}' class='card-img-top' alt='...' />
+					<div class='card-body'>
+						<h5 class='card-title'>
+							{{title}}
+						</h5>
+						<p class='card-text'>
+							{{summary}}
+						</p>
+						<a href='#signup' class='btn btn-outline-dark btn-see-course'>
+							{{buttonText}} &rarr;
+						</a>
+					</div>
+				</div>
+			{{/courses}}
+			</div>
+		</script>
 
 		<script src="./node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
