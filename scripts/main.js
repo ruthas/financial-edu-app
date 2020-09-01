@@ -2,7 +2,7 @@
 var source = `
 <div class="row courses" id="courses">
 <div class='col-12 row-title'>
-  <h2> {{title1}} </h2>
+  <h2> {{upper title1}} </h2>
   <img src="./assets/line.svg" class="line" />
   <p> {{subheading1}} </p>
 </div>
@@ -12,7 +12,7 @@ var source = `
 </div>
 <div class="row prerequesites" id="prerequesites">
       <div class='col-12 row-title'>
-        <h2> {{title2}} </h2>
+        <h2> {{upper title2}} </h2>
         <img src="./assets/line.svg" class="line" />
         <p> {{subheading2}} </p>
       </div>
@@ -103,7 +103,7 @@ Handlebars.registerPartial(
       <img src='{{image}}' class='card-img-top' alt='course illustration' />
       <div class='card-body'>
         <h3 class='card-title'>
-          {{title}}
+          {{upper title}}
         </h3>
         <p class='card-text'>
           {{summary}}
@@ -117,9 +117,9 @@ Handlebars.registerPartial(
   `
 )
 
-// Handlebars.registerHelper('upper', function (aString) {
-//   return aString.toUpperCase()
-// })
+Handlebars.registerHelper('upper', function (aString) {
+  return aString.toUpperCase()
+})
 
 var result = template(data)
 document.getElementById('homepage').innerHTML = result
