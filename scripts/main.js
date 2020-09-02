@@ -122,9 +122,10 @@ Handlebars.registerHelper('upper', function (aString) {
 })
 
 var result = template(data)
-document.getElementById('homepage').innerHTML = result
+$('#homepage').empty().append(result)
 
 // =========
+
 $('.navbar a').on('click', function (e) {
   var target = $(this)
   var element = target.attr('href')
