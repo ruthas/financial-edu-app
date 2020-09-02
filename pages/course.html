@@ -16,7 +16,9 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
-			<a class="navbar-brand" href="../index.html">LOGO</a>
+			<a class="navbar-brand" href="../index.html"
+				><img class="logo" src="../assets/Logo.svg" alt="Logo"
+			/></a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -32,10 +34,10 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4 text-center">
 					<li class="nav-item">
-						<a class="nav-link active" href="#courses">Courses </a>
+						<a class="nav-link active" href="../index.html#courses">Courses </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#prerequesites">Prerequesites</a>
+						<a class="nav-link" href="../index.html#prerequesites">Prerequesites</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#reviews">Reviews</a>
@@ -51,74 +53,91 @@
 						placeholder="Search"
 					/>
 				</form>
-				<a
-					href="./login.html"
-					class="btn btn-outline-dark my-2 my-sm-0 ml-2 btn-login"
-					>Log in</a
-				>
-				<a
-					href="./signup.html"
-					class="btn btn-dark my-2 my-sm-0 ml-2 btn-signup"
-					>Sign up</a
-				>
+				<p>Hello, Z</p>
+				<img src="../assets/avatar.svg" alt="" />
 			</div>
 		</nav>
 
 		<div class="container-fluid">
 			<!-- Content Here -->
-			<div class="hero" id="hero">
+			<div class="course-header" id="course-header">
 				<!-- Hero Cover Image with some text, it would be cool to add a video maybe-->
-				<div class="col-12 col-md-6">
-					<h1>Learn about finance</h1>
-					<a href="#" class="btn btn-lg btn-outline-dark" id="tellmemore"
-						>Tell me more &rarr;
+				<div class="col-12">
+					<h1>Introduction to finance</h1>
+					<p class="course-sub">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+						maximus dui sed
+					</p>
+					<a href="./" class="btn btn-lg btn-green-primary" id="tellmemore">
+						Start course
 					</a>
-				</div>
-				<div class="col-md-6">
-					<!-- Hero Cover Image -->
 				</div>
 			</div>
 
-            <div class="row">
-                
-            </div>
-            <!-- Footer Start-->
+			<div class="course-content">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+					  <a class="nav-link active" id="toc-tab" data-toggle="tab" href="#toc" role="tab" aria-controls="toc" aria-selected="true">Table of contents</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="false">Description</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" id="feedback-tab" data-toggle="tab" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Student feedback</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="related-tab" data-toggle="tab" href="#related" role="tab" aria-controls="related" aria-selected="false">Related courses</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="toc" role="tabpanel" aria-labelledby="toc-tab">Course breakdown</div>
+					<div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">Course description</div>
+					<div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">Comment section</div>
+					<div class="tab-pane fade" id="related" role="tabpanel" aria-labelledby="related-tab">Related courses here</div>
+				</div>
+	
+			</div>
+
+			<!-- Footer Start-->
 			<footer class="pt-4 my-md-5 pt-md-5 border-top">
 				<div class="row">
 					<div class="col-12 col-md">
-						<img class="mb-2" src="../assets/#" alt="" />
-						<small class="d-block mb-3 text-muted"
-							>&copy; 2020 Company, Inc. &middot;</small
-						>
+						<img class="mb-2" src="../assets/footer-logo.svg" alt="" />
+						<small class="d-block mb-3 text-muted">&copy; 2020</small>
 					</div>
 					<div class="col-6 col-md">
-						<h5>Features</h5>
+						<h5>About us</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">Team members</a></li>
+							<li><a class="text-muted" href="#">Head Quarters</a></li>
+							<li><a class="text-muted" href="#">Board</a></li>
+						</ul>
 					</div>
 					<div class="col-6 col-md">
-						<h5>Resources</h5>
+						<h5>Contact us</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">Email</a></li>
+							<li><a class="text-muted" href="#">Telephone</a></li>
+							<li><a class="text-muted" href="#">Socials</a></li>
+						</ul>
 					</div>
 					<div class="col-6 col-md">
-						<h5>About</h5>
+						<h5>Affiliates</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">GetSmart</a></li>
+							<li><a class="text-muted" href="#">UNISA</a></li>
+							<li><a class="text-muted" href="#"></a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 col-md"></div>
-					<div class="col-6 col-md">
-						<h5>Features</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>Resources</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>About</h5>
-					</div>
-				</div>
+
 				<div class="container">
 					<p class="float-right"><a href="#top">Back to top</a></p>
 				</div>
 			</footer>
 		</div>
 
+		<script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

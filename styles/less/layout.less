@@ -8,37 +8,46 @@ body,
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .hero {
 	width: 100vw;
-	height: 50vh;
+	height: 70vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #eeeeee;
+	background-color: @blue;
 	padding: 2rem;
 	padding-left: 6em;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: @white;
+}
+
+.row-title {
+	padding-bottom: 2rem;
 }
 
 .courses,
-.prequesites {
-	padding-left: 10%;
+.prerequesites {
+	padding: 0 4rem;
 	padding-top: 5rem;
 	text-align: center;
 }
 
-.prequesite,
-.prequesite > p {
+.prerequesites p {
 	padding-top: 1rem;
 }
 
+.prerequesites {
+	background-color: @bg-blue;
+}
+
 .get-started {
-	margin-top: 5rem;
-	height: 50vh;
-	background-color: #eeeeee;
+	padding-top: 4rem;
+	height: 70vh;
+	background-color: @bg-blue;
 }
 
 .get-started > .col-md-4 {
@@ -50,10 +59,47 @@ body,
 	margin: auto;
 }
 
+.course-header {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: @blue;
+	padding: 2rem;
+	padding-left: 6em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: @white;
+}
+
+.course-sub {
+	padding-bottom: 4rem;
+}
+
+.course-content {
+	padding: 2rem;
+}
 footer {
 	padding-left: 10%;
 	padding-top: 5rem;
 }
+
+// Images
+
+.hero img {
+	height: 330px;
+}
+
+img.line {
+	padding: 1rem;
+}
+
+.get-started img {
+	height: 38vh;
+	width: 85%;
+}
+
 footer > img {
 	width: 24px;
 	height: 24px;
@@ -63,7 +109,25 @@ footer > img {
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
-	
+	.hero {
+		text-align: center;
+		padding-left: 0;
+		width: 100vw;
+		height: 100vh;
+		align-items: center;
+		background-color: @blue;
+		padding: 2rem;
+		padding-left: 0;
+	}
+
+	.hero img,
+	.get-started img {
+		display: none;
+	}
+
+	.get-started {
+		padding-top: 1rem;
+	}
 }
 
 // Medium devices (tablets, 768px and up)
@@ -72,9 +136,6 @@ footer > img {
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
-	.hero {
-		padding-left: 10em;
-	}
 }
 
 // Extra large devices (large desktops, 1200px and up)
