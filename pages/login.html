@@ -15,60 +15,25 @@
 		<title>Financial edu app</title>
 	</head>
 	<body>
-		<!-- Nav-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
-			<a class="navbar-brand" href="./index.html">LOGO</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarTogglerDemo02"
-				aria-controls="navbarTogglerDemo02"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4 text-center">
-					<li class="nav-item">
-						<a class="nav-link active" href="#courses">Courses </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#prerequesites">Prerequesites</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#reviews">Reviews</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#faqs">FAQs</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input
-						class="form-control mr-sm-2"
-						type="search"
-						placeholder="Search"
-					/>
-				</form>
-				<a
-					href="./pages/login.html"
-					class="btn btn-outline-dark my-2 my-sm-0 ml-2 btn-login"
-					>Log in</a
-				>
-				<a
-					href="./pages/signup.html"
-					class="btn btn-dark my-2 my-sm-0 ml-2 btn-signup"
-					>Sign up</a
-				>
-			</div>
 		</nav>
 		<div class="container-fluid">
 			<!-- Sign up -->
 			<div class="row signup">
-				<div class="col-12 text-center"><h3>Sign into your account</h3></div>
-				<div class="col-12 offset-sm-4 col-md-4">
+				<div class="col-12 text-center logo">
+					<a href="index.html" >
+						<img src="../Icons/imali.png" style="width: 15%; height: auto;">
+						</a>
+				</div>
+				
+				<div class="col-12 text-center ">
+					<button type="button" class="btn btn-primary btn-lg col-md-2 btn-login">Log in</button>
+					<a href="signup.html">
+						<button type="button" class="btn btn-secondary btn-lg col-md-2 btn-signup">Sign up</button>
+					</a>
+				</div>
+				
+				<div class="col-12 text-center form-body"><h3>Sign into your account</h3></div>
+					<div class="col-12 offset-sm-4 col-md-4">
 					<form action="">
 						<div class="form-row mt-4">
 							<label for="email">Email</label>
@@ -83,7 +48,7 @@
 								required
 							/>
 						</div>
-						<button type="submit" class="btn btn-outline-dark col-12">
+						<button type="submit" class="btn btn-primary btn-lg col-12 button">
 							Log in
 						</button>
 					
@@ -115,7 +80,7 @@
 					<!-- Card Footer -->
 
 					<div class="footer col-12 text-center">
-						<span>or </span><a class="toggle-link" href="#">Sign Up</a>
+						<span>or </span><a class="toggle-link" href="signup.html">Sign Up</a>
 					</div>
 				</div>
 				

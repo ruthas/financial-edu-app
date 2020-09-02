@@ -14,16 +14,26 @@
 ============================================================== */
 
 /* Navbar start*/
+/* Navbar end 
 
-nav {
-	height: 5rem;
-    background-color: black;
-    
-}
+============================================================== */
+
+/* form*/
+
 .signup {
-    border:solid;
-    border-width: 1px;
-    border-right:;
+    padding-top: 40px;
+}
+.logo {
+    padding-bottom: 20px;
+
+}
+
+.form-body {
+    padding-top: 30px;
+
+}
+.signup-form{
+    padding-top: 0px;
 }
 
 .password {
@@ -78,12 +88,75 @@ nav {
 .footer {
     margin-top: 10PX;
 }
-  
- 
+
+.button {
+    background-color: #7295D9;
+    border-color: #7295D9;
+}
+
+.button:hover {
+    background-color: #9B51E0;
+    border-color:  #9B51E0;
+}
+
+.btn-outline-dark {
+    color: white;
+    
+}
+
+.btn-login{
+    background-color: white;
+    color: #4E4E4E;
+    border-color: #4E4E4E;
+}
+.btn-login:hover {
+    background-color: white;
+    border-color:  white;
+    color: #4E4E4E;
+}
+
+.btn-signup{
+    background-color:#7295D9;
+    border-color: #7295D9;
+    color: white;
+}
+.btn-signup:hover {
+     background-color: #9B51E0;
+    border-color:  #9B51E0;
+}  
 
 
-/* Navbar end
+.btn-login2 {
+    background-color:#7295D9;
+    border-color: #7295D9;
+    color: white;
+}
+.btn-login2:hover {
+    background-color: #9B51E0;
+   border-color:  #9B51E0;
+}  
+
+
+.btn-signup2{
+    background-color: white;
+    color: #4E4E4E;
+    border-color: #4E4E4E;
+}  
+
+.btn-signup2:hover {
+    background-color: white;
+    border-color:  white;
+    color: #4E4E4E;
+}
+
+
+
+
+/* Navbar end 
+
 ============================================================== */
+  
+
 
 /* Hero/Header */
 
