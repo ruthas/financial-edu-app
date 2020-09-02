@@ -59,6 +59,27 @@ body,
 	margin: auto;
 }
 
+.course-header {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: @blue;
+	padding: 2rem;
+	padding-left: 6em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: @white;
+}
+
+.course-sub {
+	padding-bottom: 4rem;
+}
+
+.course-content {
+	padding: 2rem;
+}
 footer {
 	padding-left: 10%;
 	padding-top: 5rem;
@@ -75,8 +96,8 @@ img.line {
 }
 
 .get-started img {
-	height: 50vh;
-	width: 70%;
+	height: 38vh;
+	width: 85%;
 }
 
 footer > img {
@@ -98,9 +119,14 @@ footer > img {
 		padding: 2rem;
 		padding-left: 0;
 	}
+
 	.hero img,
 	.get-started img {
 		display: none;
+	}
+
+	.get-started {
+		padding-top: 1rem;
 	}
 }
 

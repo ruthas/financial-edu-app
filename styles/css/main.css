@@ -73,6 +73,20 @@ h3 {
 p {
   font-size: 24px;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
 body,
 .container-fluid {
   padding: 0;
@@ -124,6 +138,25 @@ body,
 .signup {
   margin: auto;
 }
+.course-header {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7295d9;
+  padding: 2rem;
+  padding-left: 6em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.course-sub {
+  padding-bottom: 4rem;
+}
+.course-content {
+  padding: 2rem;
+}
 footer {
   padding-left: 10%;
   padding-top: 5rem;
@@ -135,8 +168,8 @@ img.line {
   padding: 1rem;
 }
 .get-started img {
-  height: 50vh;
-  width: 70%;
+  height: 38vh;
+  width: 85%;
 }
 footer > img {
   width: 24px;
@@ -155,6 +188,9 @@ footer > img {
   .hero img,
   .get-started img {
     display: none;
+  }
+  .get-started {
+    padding-top: 1rem;
   }
 }
 .blue {
@@ -177,11 +213,30 @@ footer > img {
 }
 nav {
   height: 5rem;
-  background-color: black;
+  background-color: #7295d9;
+  color: #7295d9;
+}
+.nav-item .nav-link li {
+  color: #7295d9;
+}
+.nav-item .nav-link li .active a {
+  color: #000000;
 }
 img.logo {
   width: 150px;
   height: 49px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #8f34e2;
+  border-bottom: 6px solid #8f34e2;
+}
+.nav-tabs .nav-link {
+  border: 0px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 @media (max-width: 576px) {
   img.logo {
@@ -210,9 +265,11 @@ img.logo {
 }
 .btn-green-primary {
   background: #2da503;
-  border-radius: 40px;
   color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
   text-transform: uppercase;
+  padding: 0.5em;
 }
 .btn-blue-primary {
   background: #7295d9;
@@ -226,6 +283,24 @@ img.logo {
   font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
+}
+.btn-primary-small {
+  background: #ffffff;
+  border: 1px solid #7295d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 22px;
+  line-height: 31px;
+  color: #7295d9;
+}
+.btn-primary-small-filled {
+  background: #7295d9;
+  border: 1px solid #7295d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 19px;
+  line-height: 31px;
+  color: #ffffff;
 }
 .card {
   padding: 1rem;

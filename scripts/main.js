@@ -108,7 +108,7 @@ Handlebars.registerPartial(
         <p class='card-text'>
           {{summary}}
         </p>
-        <a href='#signup' class='btn btn-purple-primary'>
+        <a href='./pages/course.html' class='btn btn-purple-primary'>
           {{buttonText}} >
         </a>
       </div>
