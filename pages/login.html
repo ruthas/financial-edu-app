@@ -10,20 +10,34 @@
 			rel="stylesheet"
 			href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
 		/>
-		<!-- <link rel="stylesheet" href="styles/css/style.css" /> -->
-		<link rel="stylesheet" href="../styles/css/main.css" />
+		<link rel="stylesheet" href="../styles/css/style.css" />
+		<!-- <link rel="stylesheet" href="../styles/css/main.css" /> -->
 		<title>Financial edu app</title>
 	</head>
 	<body>
+		</nav>
 		<div class="container-fluid">
 			<!-- Sign up -->
 			<div class="row signup">
-				<div class="col-12 text-center"><h1>Sign into your account</h1></div>
-				<div class="col-12 offset-sm-3 col-md-6">
+				<div class="col-12 text-center logo">
+					<a href="index.html" >
+						<img src="../Icons/imali.png" style="width: 15%; height: auto;">
+						</a>
+				</div>
+				
+				<div class="col-12 text-center ">
+					<button type="button" class="btn btn-primary btn-lg col-md-2 btn-login">Log in</button>
+					<a href="signup.html">
+						<button type="button" class="btn btn-secondary btn-lg col-md-2 btn-signup">Sign up</button>
+					</a>
+				</div>
+				
+				<div class="col-12 text-center form-body"><h3>Sign into your account</h3></div>
+					<div class="col-12 offset-sm-4 col-md-4">
 					<form action="">
 						<div class="form-row mt-4">
 							<label for="email">Email</label>
-							<input type="email" class="form-control" id="email" required />
+							<input type="email" class="form-control " id="email" required />
 						</div>
 						<div class="form-row mt-4 mb-4">
 							<label for="pwd">Password</label>
@@ -34,14 +48,47 @@
 								required
 							/>
 						</div>
-						<button type="submit" class="btn btn-outline-dark col-12">
+						<button type="submit" class="btn btn-primary btn-lg col-12 button">
 							Log in
 						</button>
+					
 					</form>
+
+					<div class="col-12 text-center password">
+						<a class="toggle-link" href="#">FORGOT PASSWORD</a>
+					</div>
+					<div class="or"></div>
+					
+
+					<div class="column ">
+						<a href="#" class="login-with-google">
+						<img src="../Icons/google-plus.png" style="width: 100px; height: 100px;">
+					</a>
+					  </div>
+					  <div class="column">
+						<a href="#" class="login-with-facebook">
+						<img src="../Icons/facebook (1).png" style="width: 100px; height: 100px;">
+						</a>
+					  </div>
+					  <div class="column">
+						<a href="#" class="login-with-indeed">
+						<img src="../Icons/linkedin.png" style="width: 100px; height: 100px;">
+						</a>
+					  </div>
+					</div>
+
+					<!-- Card Footer -->
+
+					<div class="footer col-12 text-center">
+						<span>or </span><a class="toggle-link" href="signup.html">Sign Up</a>
+					</div>
 				</div>
+				
+				
 			</div>
 
-			<!-- Footer Start-->
+			<!-- Footer Start
+
 			<footer class="pt-4 my-md-5 pt-md-5 border-top">
 				<div class="row">
 					<div class="col-12 col-md">
@@ -76,7 +123,7 @@
 					<p class="float-right"><a href="#top">Back to top</a></p>
 				</div>
 			</footer>
-		</div>
+		</div> -->
 
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
