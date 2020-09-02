@@ -73,14 +73,6 @@ h3 {
 p {
   font-size: 24px;
 }
-a.nav-link {
-  color: #7295d9 !important;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-a.nav-link .active {
-  color: #000000;
-}
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
@@ -170,11 +162,7 @@ body,
   padding-bottom: 4rem;
 }
 .course-content {
-  background-color: rgba(114, 149, 217, 0.1);
   padding: 2rem;
-}
-.tab-pane .list-group li {
-  background-color: rgba(114, 149, 217, 0.1);
 }
 footer {
   padding-left: 10%;
@@ -190,22 +178,20 @@ img.line {
   height: 38vh;
   width: 85%;
 }
-footer img {
-  width: 165px;
-  height: 60px;
+footer > img {
+  width: 24px;
+  height: 24px;
 }
 @media (max-width: 576px) {
   .hero {
     text-align: center;
     padding-left: 0;
     width: 100vw;
+    height: 100vh;
     align-items: center;
     background-color: #7295d9;
-
     padding-top: 5rem;
     padding-left: 3rem;
-   padding: 2rem;
-
   }
   .hero img,
   .get-started img {
@@ -213,21 +199,6 @@ footer img {
   }
   .get-started {
     padding-top: 1rem;
-  }
-  .course-header {
-    width: 100vw;
-    height: 70vh;
-    background-color: #7295d9;
-    padding: 1rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffffff;
-  }
-  .course-sub {
-    padding-bottom: 0;
-  }
-  .course-content {
-    padding: 1rem;
   }
 }
 .blue {
@@ -248,7 +219,6 @@ footer img {
 .white {
   color: #ffffff;
 }
-
 nav {
   background-color: #7295d9;
   color: #7295d9;
@@ -261,7 +231,6 @@ nav {
   background: #f8f9fa;
   width: auto;
 }
-
 .nav-item .nav-link li {
   color: #7295d9;
 }
@@ -312,10 +281,10 @@ img.logo {
 .btn-green-primary {
   background: #2da503;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 34px;
   text-transform: uppercase;
-  padding: 1rem;
+  padding: 0.5em;
 }
 .btn-blue-primary {
   background: #7295d9;
@@ -354,25 +323,17 @@ img.logo {
 .card .card-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 42px;
   color: #8f34e2;
 }
 .card p {
   font-style: normal;
   font-weight: normal;
-  font-size: 19px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 31px;
   color: #4e4e4e;
   text-align: left;
-}
-@media (max-width: 576px) {
-  .btn-purple-primary {
-    width: 100%;
-  }
-  .btn-blue-primary {
-    width: 90%;
-  }
 }
 form > form-group > input {
   height: 50px !important;

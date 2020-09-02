@@ -41,7 +41,7 @@ var data = {
         './assets/UnderstandingMoney.png'
     },
     {
-      title: 'Mo money Mo problems',
+      title: 'choosing insurance',
       summary: 'Money sets limits on your dreams, hinders or magnifies your happiness, and dictates the quality of your life. budgets, racked up debts, defaulted on mortgages...',
       buttonText: 'See Course',
       image:
