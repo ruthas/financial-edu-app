@@ -10,16 +10,30 @@
 			rel="stylesheet"
 			href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
 		/>
-		<!-- <link rel="stylesheet" href="styles/css/style.css" /> -->
-		<link rel="stylesheet" href="../styles/css/main.css" />
+		<link rel="stylesheet" href="../styles/css/style.css" /> 
+		 <!-- <link rel="stylesheet" href="../styles/css/main.css" /> -->
 		<title>Financial edu app</title>
 	</head>
 	<body>
+		<div class="row signup">
+			<div class="col-12 text-center logo">
+				<a href="index.html" >
+					<img src="../Icons/imali.png" style="width: 15%; height: auto;">
+					</a>
+			</div>
+			<div class="col-12 text-center signup-form ">
+				<a href="login.html">
+					<button type="button" class="btn btn-primary btn-lg col-md-2 btn-login2">Log in</button>
+				</a>
+				<button type="button" class="btn btn-secondary btn-lg col-md-2 btn-signup2">Sign up</button>
+		</div>
 		<div class="container-fluid">
+			
 			<!-- Sign up -->
 			<div class="row signup">
-				<div class="col-12 text-center"><h1>Create your account</h1></div>
-				<div class="col-12 offset-sm-3 col-md-6">
+				
+				<div class="col-12 text-center"><h3>Create your account</h3></div>
+				<div class="col-12 offset-sm-4 col-md-4 ">
 					<form action="">
 						<div class="form-row mt-4">
 							<label for="name">Name</label>
@@ -42,48 +56,43 @@
 								required
 							/>
 						</div>
-						<button type="submit" class="btn btn-outline-dark col-12">
+						<button type="submit" class="btn btn-outline-dark col-12 button">
                             Sign up
                         </button>
 					</form>
+
+					<div class="or"></div>
+					
+
+					<div class="column ">
+						<a href="#" class="login-with-google">
+						<img src="../Icons/google-plus.png" style="width: 100px; height: 100px;">
+					</a>
+					  </div>
+					  <div class="column">
+						<a href="#" class="login-with-facebook">
+						<img src="../Icons/facebook (1).png" style="width: 100px; height: 100px;">
+						</a>
+					  </div>
+					  <div class="column">
+						<a href="#" class="login-with-indeed">
+						<img src="../Icons/linkedin.png" style="width: 100px; height: 100px;">
+						</a>
+					  </div>
+
+					  	<!-- Card Footer -->
+
+					<div class="footer col-12 text-center">
+						<a class="toggle-link" href="login.html">Already member?</a>
+					</div>
+				</div>
+				
+					</div>
+
 				</div>
 			</div>
 
-			<!-- Footer Start-->
-			<footer class="pt-4 my-md-5 pt-md-5 border-top">
-				<div class="row">
-					<div class="col-12 col-md">
-						<img class="mb-2" src="../assets/#" alt="" />
-						<small class="d-block mb-3 text-muted"
-							>&copy; 2020 Company, Inc. &middot;</small
-						>
-					</div>
-					<div class="col-6 col-md">
-						<h5>Features</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>Resources</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>About</h5>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12 col-md"></div>
-					<div class="col-6 col-md">
-						<h5>Features</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>Resources</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>About</h5>
-					</div>
-				</div>
-				<div class="container">
-					<p class="float-right"><a href="#top">Back to top</a></p>
-				</div>
-			</footer>
+			
 		</div>
 
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
