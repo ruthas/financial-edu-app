@@ -78,8 +78,14 @@ body,
 }
 
 .course-content {
+	background-color: @bg-blue;
 	padding: 2rem;
 }
+
+.tab-pane .list-group li {
+	background-color: @bg-blue;
+}
+
 footer {
 	padding-left: 10%;
 	padding-top: 5rem;
@@ -100,9 +106,9 @@ img.line {
 	width: 85%;
 }
 
-footer > img {
-	width: 24px;
-	height: 24px;
+footer img {
+	width: 165px;
+	height: 60px;
 }
 
 // Media queries
@@ -113,11 +119,10 @@ footer > img {
 		text-align: center;
 		padding-left: 0;
 		width: 100vw;
-		height: 100vh;
+		height: 60vh;
 		align-items: center;
 		background-color: @blue;
 		padding: 2rem;
-		padding-left: 0;
 	}
 
 	.hero img,
@@ -127,6 +132,24 @@ footer > img {
 
 	.get-started {
 		padding-top: 1rem;
+	}
+
+	.course-header {
+		width: 100vw;
+		height: 70vh;
+		background-color: #7295d9;
+		padding: 1rem;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: @white;
+	}
+
+	.course-sub {
+		padding-bottom: 0;
+	}
+
+	.course-content {
+		padding: 1rem;
 	}
 }
 
