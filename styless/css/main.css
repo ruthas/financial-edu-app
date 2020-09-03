@@ -368,9 +368,6 @@ form > form-group > input {
 .signup {
   padding-top: 40px;
 }
-.logo {
-  padding-bottom: 20px;
-}
 .form-body {
   padding-top: 30px;
 }
@@ -468,4 +465,42 @@ form > form-group > input {
   background-color: white;
   border-color: white;
   color: #4E4E4E;
+}
+.li {
+  list-style: none;
+}
+.container {
+  width: 70%;
+  margin: 20px auto;
+  overflow: auto;
+}
+.pull-left {
+  float: left;
+}
+.header {
+  background: #7295D9;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 16px;
+}
+.footer {
+  background: #7295D9;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 16px;
+}
+.button {
+  background-color: #9B51E0;
+  border-color: #9B51E0;
+}
+.button:hover {
+  background-color: #7295D9;
+  border-color: #7295D9;
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
 }

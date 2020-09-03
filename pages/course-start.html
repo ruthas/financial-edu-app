@@ -81,6 +81,79 @@
 				</div>
 			</div>
 
+			<!--Quiz-->
+
+			<div class="container">
+				<header class="header">
+					<div class="pull-left">iMali Quiz</div>
+				</header>
+				<main>
+					<form class="questionForm" id="q1" data-question="1">
+						<h3>1. Which of the following can result in lower premuims</h3>
+						<ul>
+							<li><input type="radio" name="q1" value="a" />Deductable</li>
+							<li><input type="radio" name="q1" value="b" />Copayment</li>
+							<li><input type="radio" name="q1" value="c" />Behaviour</li>
+							<li><input type="radio" name="q1" value="d" />all of the above</li>
+						</ul>
+						<button id="submit">Submit</button>
+					</form>
+					
+					<form class="questionForm" id="q2" data-question="2">
+						<h3>2. What is the maximum age that you can take out life insurance</h3>
+						<ul>
+							<li><input type="radio" name="q2" value="a" />65</li>
+							<li><input type="radio" name="q2" value="b" />73</li>
+							<li><input type="radio" name="q2" value="c" />91</li>
+							<li><input type="radio" name="q2" value="d" />81</li>
+						</ul>
+						<button id="submit">Submit</button>
+					</form>
+					
+					<form class="questionForm" id="q3" data-question="3">
+						<h3>3. True or fauls A car is regarded as an asset?</h3>
+						<ul>
+							<li><input name="q3" type="radio" value="a" />True</li>
+							<li><input name="q3" type="radio" value="b" />False</li>
+							<li><input name="q3" type="radio" value="c" />Not sure</li>
+							<li><input name="q3" type="radio" value="d" />Maybe</li>
+						</ul>
+						<button id="submit">Submit</button>
+					</form>
+					
+					<form class="questionForm" id="q4" data-question="4">
+						<h3>4. What is the averge leangth of a home loan?
+						</h3>
+						<ul>
+							<li><input name="q4" type="radio" value="a" />10 years</li>
+							<li><input name="q4" type="radio" value="b" />20 years</li>
+							<li><input name="q4" type="radio" value="c" />15 years</li>
+							<li><input name="q4" type="radio" value="d" />25 years</li>
+						</ul>
+						<button id="submit">Submit</button>
+					</form>
+					
+					<form class="questionForm" id="q5" data-question="5">
+						<h3>5. What is the term used to describe monies paid to insurance</h3>
+						<ul>
+							<li><input name="q5" type="radio" value="a" />A premuim</li>
+							<li><input name="q5" type="radio" value="b" />an interest rate</li>
+							<li><input name="q5" type="radio" value="c" />A discount rate</li>
+							<li><input name="q5" type="radio" value="d" />A loss ratio</li>
+						</ul>
+						<button id="submit">Submit</button>
+					</form>
+					
+					<div id="results"></div> <!--Modal Wil come here, maybe-->
+					<br>
+				</main>
+				<footer class="footer">
+					<div class="pull-left">Total: 5 Questions</div>
+				</footer>
+			</div>
+
+			<!--Quiz End-->
+
 			<!-- Footer Start-->
 			<footer class="pt-4 my-md-5 pt-md-5 border-top">
 				<div class="row">
@@ -125,5 +198,6 @@
 		<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="../scripts/main.js"></script>
+		<script src="../scripts/quiz3.js"></script>
 	</body>
 </html>
