@@ -176,6 +176,15 @@ body,
 .tab-pane .list-group li {
   background-color: rgba(114, 149, 217, 0.1);
 }
+.signed-in {
+  display: flex;
+  flex-direction: row;
+}
+#avatar {
+  height: 45px;
+  width: 37px;
+  margin: 1rem;
+}
 footer {
   padding-left: 10%;
   padding-top: 5rem;
@@ -195,18 +204,36 @@ footer img {
   height: 60px;
 }
 @media (max-width: 576px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .hero {
     text-align: center;
     padding-left: 0;
     width: 100vw;
     align-items: center;
     background-color: #7295d9;
+
     padding-top: 5rem;
     padding-left: 3rem;
+   padding: 2rem;
+
+  }
+  .hero p {
+    font-size: 16px;
+    line-height: 22px;
   }
   .hero img,
-  .get-started img {
+  .get-started img,
+  #purple-line {
     display: none;
+  }
+  .courses,
+  .prerequesites {
+    padding: 0 1rem;
+    padding-top: 3rem;
+    text-align: center;
   }
   .get-started {
     padding-top: 1rem;
@@ -253,6 +280,11 @@ nav {
   position: sticky;
   z-index: 1;
 }
+.navstyle {
+  background: #f8f9fa;
+  width: auto;
+}
+
 .nav-item .nav-link li {
   color: #7295d9;
 }
