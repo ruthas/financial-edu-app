@@ -98,17 +98,6 @@ body,
 	background-color: @bg-blue;
 }
 
-.signed-in {
-	display: flex;
-	flex-direction: row;
-}
-
-#avatar {
-	height: 45px;
-	width: 37px;
-	margin: 1rem;
-}
-
 footer {
 	padding-left: 10%;
 	padding-top: 5rem;
@@ -138,16 +127,11 @@ footer img {
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
-	.row {
-		margin-right: 0;
-		margin-left: 0;
-	}
-
 	.hero {
 		text-align: center;
 		padding-left: 0;
 		width: 100vw;
-
+		
 		align-items: center;
 		background-color: @blue;
 
@@ -158,22 +142,9 @@ footer img {
 
 	}
 
-	.hero p {
-		font-size: 16px;
-		line-height: 22px;
-	}
-
 	.hero img,
-	.get-started img,
-	#purple-line {
+	.get-started img {
 		display: none;
-	}
-
-	.courses,
-	.prerequesites {
-		padding: 0 1rem;
-		padding-top: 3rem;
-		text-align: center;
 	}
 
 	.get-started {
