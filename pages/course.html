@@ -37,7 +37,9 @@
 						<a class="nav-link active" href="../index.html#courses">Courses </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../index.html#prerequesites">Prerequesites</a>
+						<a class="nav-link" href="../index.html#prerequesites"
+							>Prerequesites</a
+						>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#reviews">Reviews</a>
@@ -53,8 +55,10 @@
 						placeholder="Search"
 					/>
 				</form>
-				<p>Hello, Z</p>
-				<img src="../assets/avatar.svg" alt="" />
+				<div class="signed-in">
+					<p>Hello, Z</p>
+					<img src="../assets/avatar.svg" alt="" />
+				</div>
 			</div>
 		</nav>
 
@@ -63,40 +67,91 @@
 			<div class="row course-header" id="course-header">
 				<!-- Hero Cover Image with some text, it would be cool to add a video maybe-->
 				<div class="col-12">
-					<h1>Introduction to finance</h1>
+					<h1>Understanding money</h1>
 					<p class="course-sub">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
 						maximus dui sed
 					</p>
 				</div>
-				<div class="col-12 col-md-">
-					<a href="./course-start.html" class="btn btn-lg btn-green-primary" id="tellmemore">
-						<img src="../assets/play.svg" alt=""> Start course &rarr;
+				<div class="col-12 col-md">
+					<a
+						href="./course-start.html"
+						class="btn btn-lg btn-green-primary"
+						id="tellmemore"
+					>
+						<img src="../assets/play.svg" alt="" /> Start course &rarr;
 					</a>
 				</div>
-				<div class="col-md-6"><p><img src="../assets/download.svg" alt=""> Download course</p></div>
-				<div class="col-md-6"><p>Duration: 1hr</p></div>
-				<div class="col-md-6"><p>Release: 20 Aug 2020</p></div>
-				<div class="col-md-6"><p>Share course</p><img src="../assets/socials.png" alt=""> </div>
+				<div class="col-6 col-md-2">
+					<p><img src="../assets/download.svg" alt="" />  Download</p>
+				</div>
+				<div class="col-6 col-md-2"><p>Duration: 1hr</p></div>
+				<div class="col-6 col-md"><p>Release: 20 Aug 2020</p></div>
+				<div class="col-6 col-md">
+					<p>Share course <img src="../assets/socials.png" alt="" /></p>
+				</div>
 			</div>
 
 			<div class="course-content">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
-					  <a class="nav-link active" id="toc-tab" data-toggle="tab" href="#toc" role="tab" aria-controls="toc" aria-selected="true">Table of contents</a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="false">Description</a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" id="feedback-tab" data-toggle="tab" href="#feedback" role="tab" aria-controls="feedback" aria-selected="false">Student feedback</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="related-tab" data-toggle="tab" href="#related" role="tab" aria-controls="related" aria-selected="false">Related courses</a>
-					</li>
-				</ul>
+				<nav class="tabbable">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								id="toc-tab"
+								data-toggle="tab"
+								href="#toc"
+								role="tab"
+								aria-controls="toc"
+								aria-selected="true"
+								>Table of contents</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								id="description-tab"
+								data-toggle="tab"
+								href="#description"
+								role="tab"
+								aria-controls="description"
+								aria-selected="false"
+								>Description</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								id="feedback-tab"
+								data-toggle="tab"
+								href="#feedback"
+								role="tab"
+								aria-controls="feedback"
+								aria-selected="false"
+								>Student feedback</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								id="related-tab"
+								data-toggle="tab"
+								href="#related"
+								role="tab"
+								aria-controls="related"
+								aria-selected="false"
+								>Related courses</a
+							>
+						</li>
+					</ul>
+				</nav>
 				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active" id="toc" role="tabpanel" aria-labelledby="toc-tab">
+					<div
+						class="tab-pane fade show active"
+						id="toc"
+						role="tabpanel"
+						aria-labelledby="toc-tab"
+					>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item">History of money</li>
 							<li class="list-group-item">Dapibus ac facilisis in</li>
@@ -107,20 +162,52 @@
 							<li class="list-group-item">Porta ac consectetur ac</li>
 						</ul>
 					</div>
-					<div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
-						<ul class="list-group list-group-flush">
-							
-							<li class="list-group-item">Vestibulum at eros</li>
-						</ul>
+					<div
+						class="tab-pane fade"
+						id="description"
+						role="tabpanel"
+						aria-labelledby="description-tab"
+					>
+						<p>
+							This section explores your personal history with money. Uncover
+							why you do what you do that causes you to get the results you’re
+							getting with money so that you can change what needs to be changed
+							and strengthen what you’re doing correctly to improve your money
+							results. <br />
+							You’ll learn why your underlying feelings and subconscious
+							thoughts govern your financial life and just when and where it all
+							started. We dig up your money emotional roots to expose how social
+							norms, programming and the old paradigm affects us in our daily
+							lives and how to reawaken from the deep sleep we’ve been lulled
+							into surrounding money. <br />
+							Your understanding of money will soar beyond getting it and
+							spending it! You’ll become aligned with money on an intellectual
+							and energetic level. <br />
+							You’ll also learn the true value a dollar. What money is and what
+							it isn’t where true economic value is hiding. <br />
+							In this section I introduce a topic called Money
+							Meta-communication. We’ll take a look at how you learned money
+							without words but through energetic and physical teachings that
+							have stuck with you from childhood. I’ll share a portion of my own
+							money story and I’ll talk about how emotions like guilt and shame
+							keep money out of reach for many people. <br />
+							I was fortunate enough to learn some very valuable money lessons
+							from a Billionaire and I’m going to share those lessons with you.
+						</p>
 					</div>
-					<div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="feedback-tab">
-						
-					</div>
-					<div class="tab-pane fade" id="related" role="tabpanel" aria-labelledby="related-tab">
-						
-					</div>
+					<div
+						class="tab-pane fade"
+						id="feedback"
+						role="tabpanel"
+						aria-labelledby="feedback-tab"
+					></div>
+					<div
+						class="tab-pane fade"
+						id="related"
+						role="tabpanel"
+						aria-labelledby="related-tab"
+					></div>
 				</div>
-	
 			</div>
 
 			<!-- Footer Start-->

@@ -5,6 +5,11 @@ body,
 	width: 100%;
 }
 
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
 .centre {
 	display: flex;
 	justify-content: center;
@@ -48,10 +53,6 @@ body,
 	padding-top: 1rem;
 }
 
-.prerequesites {
-	background-color: @bg-blue;
-}
-
 .get-started {
 	padding-top: 4rem;
 	height: 70vh;
@@ -79,10 +80,6 @@ body,
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: @white;
-}
-
-.course-sub {
-	padding-bottom: 4rem;
 }
 
 .course-content {
@@ -124,8 +121,13 @@ footer img {
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
 	.row {
-		padding-right: 0;
-		padding-left: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.courses,
+	.prerequesites {
+		padding-top: 2rem;
+		text-align: center;
 	}
 
 	.hero {
@@ -138,7 +140,8 @@ footer img {
 	}
 
 	.hero img,
-	.get-started img {
+	.get-started img,
+	#purple-line {
 		display: none;
 	}
 
@@ -162,6 +165,10 @@ footer img {
 
 	.course-content {
 		padding: 1rem;
+	}
+
+	.prerequesites {
+		background-color: @white;
 	}
 }
 
