@@ -257,10 +257,6 @@ nav {
   position: sticky;
   z-index: 1;
 }
-.navstyle {
-  background: #f8f9fa;
-  width: auto;
-}
 .nav-item .nav-link li {
   color: #7295d9;
 }
