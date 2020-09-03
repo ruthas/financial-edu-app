@@ -188,6 +188,10 @@ footer img {
   height: 60px;
 }
 @media (max-width: 576px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .hero {
     text-align: center;
     padding-left: 0;
@@ -196,9 +200,19 @@ footer img {
     background-color: #7295d9;
     padding: 2rem;
   }
+  .hero p {
+    font-size: 16px;
+    line-height: 22px;
+  }
   .hero img,
   .get-started img {
     display: none;
+  }
+  .courses,
+  .prerequesites {
+    padding: 0 1rem;
+    padding-top: 3rem;
+    text-align: center;
   }
   .get-started {
     padding-top: 1rem;
