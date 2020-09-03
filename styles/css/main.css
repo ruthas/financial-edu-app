@@ -246,6 +246,13 @@ footer img {
 .white {
   color: #ffffff;
 }
+
+
+nav {
+  background-color: #7295d9;
+  color: #7295d9;
+}
+
 .fixed {
   position: sticky;
   z-index: 1;
