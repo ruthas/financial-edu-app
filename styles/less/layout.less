@@ -5,8 +5,6 @@ body,
 	width: 100%;
 }
 
-
-
 .centre {
 	display: flex;
 	justify-content: center;
@@ -29,12 +27,10 @@ body,
 }
 
 .middle-row {
-
-	display: flex; 
+	display: flex;
 	flex-wrap: wrap;
 	margin-right: 20px;
-    margin-left: 20px;
-
+	margin-left: 20px;
 }
 
 .row-title {
@@ -127,19 +123,18 @@ footer img {
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
+	.row {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
 	.hero {
 		text-align: center;
 		padding-left: 0;
 		width: 100vw;
-		
 		align-items: center;
 		background-color: @blue;
-
-		padding-top: 5rem;
-		padding-left: 3rem;
-
 		padding: 2rem;
-
 	}
 
 	.hero img,
@@ -171,8 +166,7 @@ footer img {
 }
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { 
-
+@media (max-width: 768px) {
 }
 
 // Large devices (desktops, 992px and up)
