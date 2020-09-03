@@ -203,6 +203,7 @@ footer img {
     background-color: #7295d9;
     padding-top: 5rem;
     padding-left: 3rem;
+    padding: 2rem;
   }
   .hero img,
   .get-started img {
@@ -244,10 +245,6 @@ footer img {
 }
 .white {
   color: #ffffff;
-}
-nav {
-  background-color: #7295d9;
-  color: #7295d9;
 }
 .fixed {
   position: sticky;
