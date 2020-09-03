@@ -201,6 +201,11 @@ footer img {
   width: 165px;
   height: 60px;
 }
+.signup img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 2rem;
+}
 @media (max-width: 576px) {
   .row {
     margin-right: 0;
@@ -244,6 +249,9 @@ footer img {
   }
   .prerequesites {
     background-color: #ffffff;
+  }
+  .login-signup-switch {
+    display: none;
   }
 }
 .blue {
@@ -433,7 +441,7 @@ form > form-group > input {
   position: absolute;
   top: -5px;
   right: calc(50% - 20px);
-  background-color: #fff;
+  background-color: #ffffff;
   text-align: center;
   line-height: 10px;
   color: #555;
@@ -451,8 +459,8 @@ form > form-group > input {
   border-color: #7295d9;
 }
 .button:hover {
-  background-color: #9b51e0;
-  border-color: #9b51e0;
+  background-color: #8f34e2;
+  border-color: #8f34e2;
 }
 .btn-outline-dark {
   color: white;
@@ -473,8 +481,8 @@ form > form-group > input {
   color: white;
 }
 .btn-signup:hover {
-  background-color: #9b51e0;
-  border-color: #9b51e0;
+  background-color: #8f34e2;
+  border-color: #8f34e2;
 }
 .btn-login2 {
   background-color: #7295d9;
@@ -482,8 +490,8 @@ form > form-group > input {
   color: white;
 }
 .btn-login2:hover {
-  background-color: #9b51e0;
-  border-color: #9b51e0;
+  background-color: #8f34e2;
+  border-color: #8f34e2;
 }
 .btn-signup2 {
   background-color: white;
