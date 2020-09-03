@@ -16,7 +16,9 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
-			<a class="navbar-brand" href="../index.html">LOGO</a>
+			<a class="navbar-brand" href="../index.html"
+				><img class="logo" src="../assets/Logo.svg" alt="Logo"
+			/></a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -32,10 +34,12 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-4 text-center">
 					<li class="nav-item">
-						<a class="nav-link active" href="#courses">Courses </a>
+						<a class="nav-link active" href="../index.html#courses">Courses </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#prerequesites">Prerequesites</a>
+						<a class="nav-link" href="../index.html#prerequesites"
+							>Prerequesites</a
+						>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#reviews">Reviews</a>
@@ -51,72 +55,72 @@
 						placeholder="Search"
 					/>
 				</form>
-				<a
-					href="./login.html"
-					class="btn btn-outline-dark my-2 my-sm-0 ml-2 btn-login"
-					>Log in</a
-				>
-				<a
-					href="./signup.html"
-					class="btn btn-dark my-2 my-sm-0 ml-2 btn-signup"
-					>Sign up</a
-				>
+				<p>Hello, Z</p>
+				<img src="../assets/avatar.svg" alt="" />
 			</div>
 		</nav>
 
 		<div class="container-fluid">
-			<!-- Content Here -->
-			<div class="hero" id="hero">
-				<!-- Hero Cover Image with some text, it would be cool to add a video maybe-->
-				<div class="col-12 col-md-6">
-					<h1>Learn about finance</h1>
-					<a href="#" class="btn btn-lg btn-outline-dark" id="tellmemore"
-						>Tell me more &rarr;
-					</a>
+			<div class="row content">
+				<div class="col-12 col-md-8">
+					<iframe src="" frameborder="0"></iframe>
 				</div>
-				<div class="col-md-6">
-					<!-- Hero Cover Image -->
+				<div class="col-12 col-md-3">
+					<h3>Understand money</h3>
+					<img src="../assets/line.svg" alt="" id="purple-line" />
+
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">History of money</li>
+						<li class="list-group-item">Dapibus ac facilisis in</li>
+						<li class="list-group-item">Debt trap</li>
+						<li class="list-group-item">Cras justo odio</li>
+						<li class="list-group-item">Dapibus ac facilisis in</li>
+						<li class="list-group-item">Morbi leo risus</li>
+						<li class="list-group-item">Porta ac consectetur ac</li>
+					</ul>
 				</div>
 			</div>
 
-			<div class="row"></div>
 			<!-- Footer Start-->
 			<footer class="pt-4 my-md-5 pt-md-5 border-top">
 				<div class="row">
 					<div class="col-12 col-md">
-						<img class="mb-2" src="../assets/#" alt="" />
-						<small class="d-block mb-3 text-muted"
-							>&copy; 2020 Company, Inc. &middot;</small
-						>
+						<img class="mb-2" src="../assets/footer-logo.svg" alt="" />
+						<small class="d-block mb-3 text-muted">&copy; 2020</small>
 					</div>
 					<div class="col-6 col-md">
-						<h5>Features</h5>
+						<h5>About us</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">Team members</a></li>
+							<li><a class="text-muted" href="#">Head Quarters</a></li>
+							<li><a class="text-muted" href="#">Board</a></li>
+						</ul>
 					</div>
 					<div class="col-6 col-md">
-						<h5>Resources</h5>
+						<h5>Contact us</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">Email</a></li>
+							<li><a class="text-muted" href="#">Telephone</a></li>
+							<li><a class="text-muted" href="#">Socials</a></li>
+						</ul>
 					</div>
 					<div class="col-6 col-md">
-						<h5>About</h5>
+						<h5>Affiliates</h5>
+						<ul class="list-unstyled text-small">
+							<li><a class="text-muted" href="#">GetSmart</a></li>
+							<li><a class="text-muted" href="#">UNISA</a></li>
+							<li><a class="text-muted" href="#"></a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 col-md"></div>
-					<div class="col-6 col-md">
-						<h5>Features</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>Resources</h5>
-					</div>
-					<div class="col-6 col-md">
-						<h5>About</h5>
-					</div>
-				</div>
+
 				<div class="container">
 					<p class="float-right"><a href="#top">Back to top</a></p>
 				</div>
 			</footer>
 		</div>
 
+		<script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 		<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
