@@ -114,6 +114,10 @@ body,
   margin-right: 0;
   margin-left: 0;
 }
+.col-12 {
+  padding-right: 0;
+  padding-left: 0;
+}
 .centre {
   display: flex;
   justify-content: center;
@@ -252,6 +256,13 @@ footer img {
   }
   .login-signup-switch {
     display: none;
+  }
+  .signup img {
+    margin-bottom: 0;
+  }
+  .signup-padding {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 .blue {
@@ -398,6 +409,14 @@ img.logo {
   .btn-blue-primary {
     width: 90%;
   }
+  .card .card-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .card p {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 form > form-group > input {
   height: 50px !important;
@@ -457,6 +476,9 @@ form > form-group > input {
 .button {
   background-color: #7295d9;
   border-color: #7295d9;
+}
+.button a {
+  color: #ffffff;
 }
 .button:hover {
   background-color: #8f34e2;
