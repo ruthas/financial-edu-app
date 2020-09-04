@@ -49,7 +49,7 @@ var data = {
     },
     {
       title: 'Money saving tips',
-      summary: 'Upon completion of this course, students will be able to save, protect and make much more so that their net worth is significantly higher in the long run and you...',
+      summary: 'Upon completion of this course, students will be able to save, protect and make much more so that their net worth is significantly higher in the long run and...',
       buttonText: 'See Course',
       image:
         './assets/Saving.png'

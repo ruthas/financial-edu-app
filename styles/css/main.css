@@ -548,7 +548,7 @@ form > form-group > input {
   font-size: 16px;
 }
 .footer {
-  background: #7295d9;
+  background: #ffffff !important;
   color: #ffffff;
   padding: 5px 10px;
   overflow: auto;
