@@ -160,6 +160,9 @@ body,
   height: 70vh;
   background-color: rgba(114, 149, 217, 0.1);
 }
+.prerequesites {
+  background-color: rgba(114, 149, 217, 0.1);
+}
 .get-started > .col-md-4 {
   top: 70%;
   left: 12%;
@@ -296,7 +299,7 @@ img.logo {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   color: #4e4e4e;
-  background-color: #fff;
+  background-color: #ffffff;
   border-color: #8f34e2;
   border-bottom: 6px solid #8f34e2;
 }
@@ -386,6 +389,7 @@ img.logo {
 }
 .card {
   padding: 1rem;
+  margin: 0.5rem;
 }
 .card .card-title {
   font-style: normal;
@@ -485,22 +489,22 @@ form > form-group > input {
   border-color: #8f34e2;
 }
 .btn-outline-dark {
-  color: white;
+  color: #ffffff;
 }
 .btn-login {
-  background-color: white;
+  background-color: #ffffff;
   color: #4e4e4e;
   border-color: #4e4e4e;
 }
 .btn-login:hover {
-  background-color: white;
-  border-color: white;
+  background-color: #ffffff;
+  border-color: #ffffff;
   color: #4e4e4e;
 }
 .btn-signup {
   background-color: #7295d9;
   border-color: #7295d9;
-  color: white;
+  color: #ffffff;
 }
 .btn-signup:hover {
   background-color: #8f34e2;
@@ -509,20 +513,20 @@ form > form-group > input {
 .btn-login2 {
   background-color: #7295d9;
   border-color: #7295d9;
-  color: white;
+  color: #ffffff;
 }
 .btn-login2:hover {
   background-color: #8f34e2;
   border-color: #8f34e2;
 }
 .btn-signup2 {
-  background-color: white;
+  background-color: #ffffff;
   color: #4e4e4e;
   border-color: #4e4e4e;
 }
 .btn-signup2:hover {
-  background-color: white;
-  border-color: white;
+  background-color: #ffffff;
+  border-color: #ffffff;
   color: #4e4e4e;
 }
 .li {
@@ -537,26 +541,26 @@ form > form-group > input {
   float: left;
 }
 .header {
-  background: #7295D9;
-  color: white;
+  background: #7295d9;
+  color: #ffffff;
   padding: 5px 10px;
   overflow: auto;
   font-size: 16px;
 }
 .footer {
-  background: #7295D9;
-  color: white;
+  background: #7295d9;
+  color: #ffffff;
   padding: 5px 10px;
   overflow: auto;
   font-size: 16px;
 }
 .button {
-  background-color: #9B51E0;
-  border-color: #9B51E0;
+  background-color: #8f34e2;
+  border-color: #8f34e2;
 }
 .button:hover {
-  background-color: #7295D9;
-  border-color: #7295D9;
+  background-color: #7295d9;
+  border-color: #7295d9;
 }
 @media only screen and (max-width: 900px) {
   .container {

@@ -35,7 +35,7 @@ var data = {
   courses: [
     {
       title: 'Understanding money',
-      summary: 'The course applies two core techniques which Accelerates Time-to-Knowledge. Starting with a landscape view then introducing primary building blocks provides...',
+      summary: 'The course applies two core techniques which Accelerates Time-to-Knowledge. Starting with a landscape view then introducing primary building blocks...',
       buttonText: 'See Course',
       image:
         './assets/UnderstandingMoney.png'
