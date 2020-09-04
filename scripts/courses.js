@@ -1,30 +1,5 @@
 /* eslint-disable no-undef */
-var source = `
-<div class="row courses" id="courses">
-<div class='col-12 row-title'>
-  <h2> {{upper title1}} </h2>
-  <img src="./assets/line.svg" class="line" />
-  <p> {{subheading1}} </p>
-</div>
-  {{#courses}}
-    {{>course-card}}
-  {{/courses}}
-</div>
-<div class="row prerequesites" id="prerequesites">
-      <div class='col-12 row-title'>
-        <h2> {{upper title2}} </h2>
-        <img src="./assets/line.svg" class="line" />
-        <p> {{subheading2}} </p>
-      </div>
-      {{#prerequisites}}
-        <div class="col-12 col-md-4 prequesite">
-          <img src='{{image}}' alt='requirements' />
-            <title>{{requirement}}</title>
-            <p>{{requirement}}</p>
-        </div> 
-      {{/prerequisites}}
-</div>
-`
+var source = $('#courses-template').html()
 var template = Handlebars.compile(source)
 
 var data = {
@@ -95,27 +70,7 @@ var data = {
   ]
 }
 
-Handlebars.registerPartial(
-  'course-card',
-  `
-  <div class="col-12 col-md-4 mt-2">
-    <div class='card'>
-      <img src='{{image}}' class='card-img-top' alt='course illustration' />
-      <div class='card-body'>
-        <h3 class='card-title'>
-          {{upper title}}
-        </h3>
-        <p class='card-text'>
-          {{summary}}
-        </p>
-        <a href='./pages/course.html' class='btn btn-purple-primary'>
-          {{buttonText}} >
-        </a>
-      </div>
-    </div>
-  </div>
-  `
-)
+Handlebars.registerPartial('course-card', $('#course-card-partial').html())
 
 Handlebars.registerHelper('upper', function (aString) {
   return aString.toUpperCase()
