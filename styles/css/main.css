@@ -387,6 +387,27 @@ img.logo {
   line-height: 31px;
   color: #ffffff;
 }
+iframe.embed-responsive-item {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 96%;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 93%;
+  height: 97%;
+  border: 0;
+}
+.video-content {
+  padding-top: 4rem;
+}
 .card {
   padding: 1rem;
   margin: 0.5rem;
@@ -420,6 +441,20 @@ img.logo {
   .card p {
     font-size: 16px;
     line-height: 22px;
+  }
+  .embed-responsive .embed-responsive-item,
+  .embed-responsive embed,
+  .embed-responsive iframe,
+  .embed-responsive object,
+  .embed-responsive video {
+    left: 12px;
+  }
+  iframe.embed-responsive-item {
+    margin-left: auto !important
+		;
+  }
+  .video-content {
+    padding-top: 1rem;
   }
 }
 form > form-group > input {

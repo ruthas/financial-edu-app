@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var score = 0
 var total = 5
 var points = 2
@@ -39,13 +40,13 @@ $(document).ready(function () {
 function process (n) {
 // get input value
   var submitted = $('input[name=q' + n + ']:checked').val()
-  if (submitted == sessionStorage.getItem('a' + n + '')) {
+  if (submitted === sessionStorage.getItem('a' + n + '')) {
     score = score + points
   }
 
-  if (n == total) {
+  if (n === total) {
     $('#results').html('<h2>Your final score is: ' + score + ' out of ' + highest + '</h2><a href="course-start.html">Take Quiz again</a>')
-    if (score == highest) {
+    if (score === highest) {
       $('#results').append('<p> you are an html5 master!')
     }
   }
